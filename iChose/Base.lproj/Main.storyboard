@@ -1,0 +1,1105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="rVQ-bm-7dc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--I Chosemain View Controller-->
+        <scene sceneID="Czm-eF-0lf">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" modalTransitionStyle="crossDissolve" id="rVQ-bm-7dc" customClass="iChosemainViewController" sceneMemberID="viewController">
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="9my-E3-jC3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FundoGradiente" id="cD4-Z9-H8D">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" id="Ltd-8c-chq">
+                                <rect key="frame" x="141" y="266" width="37" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                            </activityIndicatorView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" bouncesZoom="NO" keyboardDismissMode="onDrag" id="njk-mW-Seq">
+                                <rect key="frame" x="0.0" y="18" width="320" height="550"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view multipleTouchEnabled="YES" contentMode="scaleToFill" id="LyV-cr-EnG" userLabel="Content View">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="550"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView autoresizesSubviews="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fundo_janela.png" id="Xxz-Eq-ceX">
+                                                <rect key="frame" x="13" y="188" width="294" height="341"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView autoresizesSubviews="NO" multipleTouchEnabled="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar_null.png" id="Nu7-aT-0Fh">
+                                                <rect key="frame" x="111" y="139" width="98" height="100"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView autoresizesSubviews="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar_mascara.png" id="O6Q-wN-qg3">
+                                                <rect key="frame" x="110" y="139" width="100" height="100"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView autoresizesSubviews="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_acesso.png" id="Sgr-ec-yBE">
+                                                <rect key="frame" x="40" y="50" width="240" height="68"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EMAIL" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4T3-cD-dsy">
+                                                <rect key="frame" x="33" y="240" width="47" height="27"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="14"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SENHA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="V8T-uF-0eo">
+                                                <rect key="frame" x="33" y="303" width="47" height="27"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="14"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="meuemail@ichose.com.br" minimumFontSize="17" clearButtonMode="whileEditing" id="NUz-sS-v6c">
+                                                <rect key="frame" x="26" y="262" width="268" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="tintColor" red="0.035294117647058823" green="0.035294117647058823" blue="0.039215686274509803" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.4823529411764706" green="0.4823529411764706" blue="0.4823529411764706" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="rVQ-bm-7dc" id="M7u-n7-ijw"/>
+                                                </connections>
+                                            </textField>
+                                            <textField clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" id="SIN-Th-chR">
+                                                <rect key="frame" x="26" y="325" width="268" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="tintColor" red="0.035294117649999998" green="0.035294117649999998" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.4823529411764706" green="0.4823529411764706" blue="0.4823529411764706" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" returnKeyType="join" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="rVQ-bm-7dc" id="kma-GP-BjC"/>
+                                                </connections>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KoP-13-ewe">
+                                                <rect key="frame" x="26" y="416" width="268" height="40"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <state key="normal" backgroundImage="botao_entrar.png">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="entrar:" destination="rVQ-bm-7dc" eventType="touchUpInside" id="Jds-wL-7v5"/>
+                                                    <segue destination="qxo-hS-SXc" kind="modal" identifier="sValidado" modalTransitionStyle="crossDissolve" id="2Wo-3f-c5y"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dsb-aA-qCr">
+                                                <rect key="frame" x="26" y="472" width="268" height="40"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <state key="normal" backgroundImage="botao_cadastro.png">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="IFt-JD-hO2" kind="modal" identifier="Cadastro" modalTransitionStyle="crossDissolve" id="xcQ-v4-U6U"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="44m-bl-TxE">
+                                                <rect key="frame" x="285" y="15" width="22" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <state key="normal" backgroundImage="icone_info.png">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Bln-zk-C3w">
+                                                <rect key="frame" x="187" y="375" width="107" height="25"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="11"/>
+                                                <state key="normal" title="Esqueceu sua senha?">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="esqueceuSenha:" destination="rVQ-bm-7dc" eventType="touchUpInside" id="REp-7C-bea"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="Z8H-kQ-fCg" appends="YES" id="Ofy-KR-HbC"/>
+                                            <outletCollection property="gestureRecognizers" destination="osq-Ec-1AX" appends="YES" id="WcE-bT-6v9"/>
+                                        </connections>
+                                    </view>
+                                </subviews>
+                                <connections>
+                                    <outlet property="delegate" destination="rVQ-bm-7dc" id="qIZ-Hh-kGR"/>
+                                </connections>
+                            </scrollView>
+                        </subviews>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <connections>
+                        <outlet property="btCadastrar" destination="dsb-aA-qCr" id="694-1D-FPS"/>
+                        <outlet property="btEntrar" destination="KoP-13-ewe" id="mab-cO-orx"/>
+                        <outlet property="btEsqueceuSenha" destination="Bln-zk-C3w" id="u9R-ip-DuV"/>
+                        <outlet property="contentView" destination="LyV-cr-EnG" id="7X4-Ke-Zn0"/>
+                        <outlet property="ivAvatarBorda" destination="O6Q-wN-qg3" id="n2c-Wg-ggV"/>
+                        <outlet property="ivAvatarConteudo" destination="Nu7-aT-0Fh" id="yqY-cw-C0A"/>
+                        <outlet property="ivFundoAmparo" destination="Xxz-Eq-ceX" id="2Yb-hA-Vef"/>
+                        <outlet property="iviChose" destination="Sgr-ec-yBE" id="9g8-yS-Jby"/>
+                        <outlet property="lEmail" destination="4T3-cD-dsy" id="sw8-8a-Dx4"/>
+                        <outlet property="lSenha" destination="V8T-uF-0eo" id="3WV-dC-1aD"/>
+                        <outlet property="scrollView" destination="njk-mW-Seq" id="WPo-Od-njM"/>
+                        <outlet property="spinner" destination="Ltd-8c-chq" id="JWE-mV-LzO"/>
+                        <outlet property="tfEmail" destination="NUz-sS-v6c" id="U3m-Ah-h4j"/>
+                        <outlet property="tfSenha" destination="SIN-Th-chR" id="lkm-jT-aMe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xhN-ag-o2t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Z8H-kQ-fCg">
+                    <connections>
+                        <action selector="tap:" destination="rVQ-bm-7dc" id="rqs-Si-fn4"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="osq-Ec-1AX">
+                    <connections>
+                        <action selector="pan:" destination="rVQ-bm-7dc" id="8r7-AH-b6Y"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-2026" y="-228"/>
+        </scene>
+        <!--I Chose Cad View Controller-->
+        <scene sceneID="Xce-Od-ajq">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" id="IFt-JD-hO2" customClass="iChoseCadViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zUw-wT-63F" userLabel="Termo View">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FundoGradiente" id="FGu-Nj-kSd">
+                                <rect key="frame" x="0.0" y="18" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" id="Pi1-MF-eGv">
+                                <rect key="frame" x="141" y="266" width="37" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                            </activityIndicatorView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" canCancelContentTouches="NO" keyboardDismissMode="onDrag" id="Jdr-CO-elO">
+                                <rect key="frame" x="0.0" y="18" width="320" height="558"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="6hP-0C-YD8" userLabel="Content View">
+                                        <rect key="frame" x="0.0" y="52" width="320" height="730"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <subviews>
+                                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fundo_janela.png" id="jwL-8q-XTC">
+                                                <rect key="frame" x="13" y="32" width="294" height="298"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fundo_janela.png" id="gBq-2D-rpZ">
+                                                <rect key="frame" x="21" y="75" width="70" height="74"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fundo_janela.png" id="kUW-Pz-e1m">
+                                                <rect key="frame" x="13" y="338" width="294" height="139"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar_null.png" id="QCU-z1-OeA">
+                                                <rect key="frame" x="22" y="38" width="68" height="70"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar_mascara.png" id="4lt-TR-7W7">
+                                                <rect key="frame" x="21" y="38" width="70" height="70"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INFORMAÇÕES DE CADASTRO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MX4-iJ-SHv">
+                                                <rect key="frame" x="55" y="-3" width="225" height="27"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NOME" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fLH-1p-xST">
+                                                <rect key="frame" x="105" y="32" width="99" height="27"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="14"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SOBRENOME" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Fq4-tM-Rx2">
+                                                <rect key="frame" x="105" y="90" width="99" height="27"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="14"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Celular" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="m8c-m4-8jf">
+                                                <rect key="frame" x="27" y="259" width="51" height="27"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="14"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Data de nascimento" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aas-QE-BJw">
+                                                <rect key="frame" x="175" y="193" width="118" height="27"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="14"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Li e aceito os termos de uso" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zxe-rJ-KJc">
+                                                <rect key="frame" x="110" y="554" width="175" height="27"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="14"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CEP" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mvp-XT-CuW">
+                                                <rect key="frame" x="175" y="259" width="38" height="27"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="14"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CPF" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zOu-lN-FPY">
+                                                <rect key="frame" x="27" y="193" width="118" height="27"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="14"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SENHA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MBX-uw-c2U">
+                                                <rect key="frame" x="27" y="404" width="48" height="27"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="14"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confirmar SENHA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="z0Z-bP-qot">
+                                                <rect key="frame" x="175" y="404" width="107" height="27"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="14"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EMAIL" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ic5-9E-Zuh">
+                                                <rect key="frame" x="27" y="343" width="48" height="27"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="14"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" minimumFontSize="17" clearButtonMode="whileEditing" id="uvV-OC-aNG">
+                                                <rect key="frame" x="97" y="55" width="201" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="tintColor" red="0.035294117649999998" green="0.035294117649999998" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.4823529412" green="0.4823529412" blue="0.4823529412" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="rVQ-bm-7dc" id="WAS-m2-kb2"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" minimumFontSize="17" clearButtonMode="whileEditing" id="IVu-kl-paA">
+                                                <rect key="frame" x="97" y="114" width="201" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="tintColor" red="0.035294117649999998" green="0.035294117649999998" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.4823529412" green="0.4823529412" blue="0.4823529412" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="rVQ-bm-7dc" id="Ogx-k0-mr9"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" minimumFontSize="17" clearButtonMode="whileEditing" id="aGT-ob-See">
+                                                <rect key="frame" x="22" y="216" width="131" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="tintColor" red="0.035294117649999998" green="0.035294117649999998" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.4823529412" green="0.4823529412" blue="0.4823529412" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="rVQ-bm-7dc" id="hjk-fT-GPT"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" minimumFontSize="17" clearButtonMode="whileEditing" id="gRK-MK-XNb">
+                                                <rect key="frame" x="21" y="284" width="131" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="tintColor" red="0.035294117649999998" green="0.035294117649999998" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.4823529412" green="0.4823529412" blue="0.4823529412" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="rVQ-bm-7dc" id="AoJ-vJ-VET"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" minimumFontSize="17" clearButtonMode="whileEditing" id="7pv-d6-esV">
+                                                <rect key="frame" x="167" y="284" width="131" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="tintColor" red="0.035294117649999998" green="0.035294117649999998" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.4823529412" green="0.4823529412" blue="0.4823529412" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="rVQ-bm-7dc" id="Q15-Th-xmq"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" minimumFontSize="17" clearButtonMode="whileEditing" id="Kw8-SR-II5">
+                                                <rect key="frame" x="167" y="216" width="131" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="tintColor" red="0.035294117649999998" green="0.035294117649999998" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.4823529412" green="0.4823529412" blue="0.4823529412" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numbersAndPunctuation" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="rVQ-bm-7dc" id="27c-5R-G84"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="meuemail@ichose.com.br" minimumFontSize="17" clearButtonMode="whileEditing" id="4Mq-gI-lWX">
+                                                <rect key="frame" x="22" y="369" width="276" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="tintColor" red="0.035294117649999998" green="0.035294117649999998" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.4823529412" green="0.4823529412" blue="0.4823529412" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="rVQ-bm-7dc" id="EgV-Ek-G8w"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" enabled="NO" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" id="d3z-8s-jEU">
+                                                <rect key="frame" x="167" y="430" width="131" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="tintColor" red="0.035294117649999998" green="0.035294117649999998" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.4823529412" green="0.4823529412" blue="0.4823529412" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="rVQ-bm-7dc" id="tAl-Qf-em6"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" id="pkN-U2-Hrg">
+                                                <rect key="frame" x="22" y="430" width="132" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="tintColor" red="0.035294117649999998" green="0.035294117649999998" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.4823529412" green="0.4823529412" blue="0.4823529412" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" returnKeyType="next" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="rVQ-bm-7dc" id="WXe-5F-Twf"/>
+                                                </connections>
+                                            </textField>
+                                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="izU-O2-5f2">
+                                                <rect key="frame" x="22" y="159" width="278" height="29"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <segments>
+                                                    <segment title="Masculino"/>
+                                                    <segment title="Feminino"/>
+                                                </segments>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </segmentedControl>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="Xk3-4g-4KW">
+                                                <rect key="frame" x="50" y="552" width="51" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <action selector="swLi:" destination="IFt-JD-hO2" eventType="valueChanged" id="8db-XW-7Mj"/>
+                                                </connections>
+                                            </switch>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JFG-cN-qOo">
+                                                <rect key="frame" x="27" y="495" width="268" height="40"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.0" green="0.40392160415649414" blue="0.68627452850341797" alpha="1" colorSpace="deviceRGB"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                                <state key="normal" title="TERMOS DE USO">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="ksW-4v-VFW" kind="modal" modalTransitionStyle="crossDissolve" id="tHD-NA-jvr"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="svG-JG-B4L">
+                                                <rect key="frame" x="27" y="601" width="268" height="40"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.078431375324726105" green="0.52549022436141968" blue="0.21568629145622253" alpha="1" colorSpace="deviceRGB"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                                <state key="normal" title="CADASTRAR">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btSalvar:" destination="IFt-JD-hO2" eventType="touchUpInside" id="011-8m-9oC"/>
+                                                    <segue destination="qxo-hS-SXc" kind="modal" identifier="sValidadorCadastro" modalTransitionStyle="crossDissolve" id="N3o-jl-ZqE"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vnw-eG-6Qw">
+                                                <rect key="frame" x="21" y="114" width="70" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.0" green="0.40392160415649414" blue="0.68627452850341797" alpha="1" colorSpace="deviceRGB"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="EDITAR"/>
+                                                <connections>
+                                                    <action selector="btEditar:" destination="IFt-JD-hO2" eventType="touchUpInside" id="bfX-1N-8aS"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="udY-Un-oLv" appends="YES" id="wa9-6X-R3w"/>
+                                        </connections>
+                                    </view>
+                                </subviews>
+                                <connections>
+                                    <outlet property="delegate" destination="IFt-JD-hO2" id="O8T-kt-wZH"/>
+                                </connections>
+                            </scrollView>
+                            <navigationBar opaque="NO" contentMode="scaleToFill" translucent="NO" id="Xwo-cq-9TM">
+                                <rect key="frame" x="0.0" y="18" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.22745099663734436" green="0.22745099663734436" blue="0.22745099663734436" alpha="1" colorSpace="deviceRGB"/>
+                                <items>
+                                    <navigationItem id="nzO-ka-d9I">
+                                        <barButtonItem key="leftBarButtonItem" image="IconVoltar" id="k2h-2j-mwc">
+                                            <inset key="imageInsets" minX="-15" minY="19" maxX="60" maxY="20"/>
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <connections>
+                                                <action selector="btVoltar:" destination="IFt-JD-hO2" id="gDj-WQ-iPg"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iChoseLabel" id="v0p-7x-zaR">
+                                <rect key="frame" x="111" y="27" width="98" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.22745099663734436" green="0.22745099663734436" blue="0.22745099663734436" alpha="1" colorSpace="deviceRGB"/>
+                        <gestureRecognizers/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <connections>
+                        <outlet property="btEditar" destination="vnw-eG-6Qw" id="N8b-bA-YRI"/>
+                        <outlet property="btSalvar" destination="svG-JG-B4L" id="ABn-N8-w9f"/>
+                        <outlet property="btVoltar" destination="k2h-2j-mwc" id="p5c-r7-N6g"/>
+                        <outlet property="contentView" destination="6hP-0C-YD8" id="bJm-if-UMu"/>
+                        <outlet property="imageView" destination="QCU-z1-OeA" id="MeV-ao-cQc"/>
+                        <outlet property="pscGenero" destination="izU-O2-5f2" id="4yZ-zf-gfF"/>
+                        <outlet property="scrollView" destination="Jdr-CO-elO" id="6Fy-QC-X06"/>
+                        <outlet property="spinner" destination="Pi1-MF-eGv" id="UFP-y2-PYq"/>
+                        <outlet property="tfCEP" destination="7pv-d6-esV" id="j2o-gv-Io1"/>
+                        <outlet property="tfCPF" destination="aGT-ob-See" id="2dG-wb-IrW"/>
+                        <outlet property="tfCelular" destination="gRK-MK-XNb" id="pak-ch-Ujy"/>
+                        <outlet property="tfConfirmarSenha" destination="d3z-8s-jEU" id="qg3-Gu-HQw"/>
+                        <outlet property="tfDataNascimento" destination="Kw8-SR-II5" id="4CQ-UF-nhN"/>
+                        <outlet property="tfEmail" destination="4Mq-gI-lWX" id="TKz-0Y-Ui8"/>
+                        <outlet property="tfNome" destination="uvV-OC-aNG" id="mIB-6p-5ee"/>
+                        <outlet property="tfSenha" destination="pkN-U2-Hrg" id="eYG-vW-ZFR"/>
+                        <outlet property="tfSobreNome" destination="IVu-kl-paA" id="mEm-kJ-k78"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xja-w3-Una" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="udY-Un-oLv">
+                    <connections>
+                        <action selector="tap:" destination="IFt-JD-hO2" id="Jmd-Ue-KI2"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-1497" y="-607"/>
+        </scene>
+        <!--I Chose ListaTVC-->
+        <scene sceneID="ih9-eG-y5c">
+            <objects>
+                <tableViewController id="8fI-KL-Sgf" customClass="iChoseListaTVC" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Jks-KQ-XRi">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="separatorColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" placeholder="Buscar Baladas" id="ATn-p6-qmw">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="yes"/>
+                        </searchBar>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="owQ-vy-tRQ">
+                                <rect key="frame" x="0.0" y="66" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="owQ-vy-tRQ" id="ddD-6u-vap">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </tableViewCell>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="CAg-6E-jl3">
+                                <rect key="frame" x="0.0" y="110" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="CAg-6E-jl3" id="dcd-7K-fbX">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </tableViewCell>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="8Ft-gm-3BV">
+                                <rect key="frame" x="0.0" y="154" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8Ft-gm-3BV" id="g9Z-FJ-qOZ">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="8fI-KL-Sgf" id="84o-pt-MlG"/>
+                            <outlet property="delegate" destination="8fI-KL-Sgf" id="19t-vi-Nd4"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="k4D-Oc-Xkb">
+                        <barButtonItem key="leftBarButtonItem" image="IconAbreMenu" id="raV-I2-v8R">
+                            <inset key="imageInsets" minX="-15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="E8i-PO-fLV">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="btSearch:" destination="8fI-KL-Sgf" id="dvP-So-J5M"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="btMenu" destination="raV-I2-v8R" id="OqF-ff-bAY"/>
+                        <outlet property="mySearchBar" destination="ATn-p6-qmw" id="41K-WX-oXZ"/>
+                        <outlet property="tableView" destination="Jks-KQ-XRi" id="bbK-4y-S1o"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9yQ-nr-uOb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-427" y="83"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cds-58-fgi">
+            <objects>
+                <viewController id="zmc-Ph-55Y" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="b9S-Ho-ibU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9vd-Pz-nfa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OxG-47-S1G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="64" y="791"/>
+        </scene>
+        <!--I Chose Termo View Controller-->
+        <scene sceneID="eoI-2R-vbi">
+            <objects>
+                <viewController id="ksW-4v-VFW" customClass="iChoseTermoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="a02-O8-5zd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FundoGradiente" id="nSI-dD-wcT">
+                                <rect key="frame" x="0.0" y="18" width="320" height="567"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fundo_janela.png" id="9cI-lX-7D3">
+                                <rect key="frame" x="13" y="102" width="294" height="452"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TERMOS DE USO E PRIVACIDADE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mSA-fT-cxo">
+                                <rect key="frame" x="40" y="69" width="240" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" keyboardDismissMode="onDrag" editable="NO" selectable="NO" id="n5f-W0-nUz">
+                                <rect key="frame" x="20" y="113" width="280" height="429"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <string key="text">TERMOS DE USO E PRIVACIDADE
+
+AS DISPOSIÇÕES ABAIXO REGEM O USO E VENDA DOS SERVIÇOS FORNECIDOS PELA iChose LTDA.
+RECOMENDAMOS A LEITURA DO CONTEÚDO DESTE DOCUMENTO. CASO CONCORDE COM SEUS TERMOS CLIQUE EM “Li e aceito os termos de uso”. SE NÃO CONCORDAR COM ESTES TERMOS, NÃO CLIQUE EM “Li e aceito os termos de uso” E NÃO USE OS SERVIÇOS.
+
+1. DEFINIÇÕES
+1.1 - iChose ou APLICATIVO: É um APLICATIVO para smartphones que viabiliza a oferta de produtos e/ou serviços pelo vendedor nas plataformas IOS (6.1+), ANDROID (4.0+) e Windows Phone (7.0+).
+1.2 - VENDEDOR: É a pessoa jurídica, ofertante de produtos e/ou serviços através do iChose, sendo o responsável pela comercialização.
+1.3 - USUÁRIO: É a pessoa física, maior e capaz, usuária do APLICATIVO, adquirente de produtos e/ou serviços de um VENDEDOR, anunciados por meio do APLICATIVO.
+
+2. TERMOS E CONDIÇÕES DO iChose
+ESTE ACORDO LEGAL ENTRE USUÁRIO E O iChose REGE SEU USO DO SERVIÇO iChose
+O iChose é fornecedor do Serviço iChose, que permite que o USUÁRIO pague seu consumo realizado na casa noturna que frequentou diretamente do seu smartphone sob os termos e condições estabelecidos nestes termos.
+O USUÁRIO fica ciente e concorda que a utilização do APLICATIVO deve ser feita com finalidade exclusivamente pessoal imediata, não podendo ser cedido para terceiros.
+
+3. REQUISITOS PARA USAR O SERVIÇO iChose
+O Serviço iChose está disponível para indivíduos com 18 anos ou mais, somente no Brasil. O iChose poderá utilizar tecnologias para verificar o seu cumprimento.
+O uso do iChose inclui a capacidade de celebrar contratos e/ou realizar transações de forma eletrônica. O USUÁRIO RECONHECE QUE SUAS SUBMISSÕES ELETRÔNICAS CONSTITUEM SEU ACORDO E INTENÇÃO DE VINCULAR-SE E PAGAR POR TAIS CONTRATOS E TRANSAÇÕES. SEU ACORDO E INTENÇÃO DE VINCULAR-SE POR TAIS SUBMISSÕES ELETRÔNICAS SE APLICAM A TODOS OS REGISTROS RELATIVOS A TODAS AS TRANSAÇÕES QUE O USUÁRIO EFETUAR NESTE APP, INCLUINDO AVISOS DE CANCELAMENTO, POLÍTICAS, CONTRATOS E APLICAÇÕES. Para acessar e manter seus registros eletrônicos, o USUÁRIO poderá ser obrigado a ter um determinado hardware e software, que são de sua exclusiva responsabilidade.
+O iChose não é responsável por erros tipográficos.
+O uso do Serviço iChose exige dispositivos compatíveis, acesso à Internet e determinados software (taxas podem ser aplicáveis); pode exigir atualizações periódicas; e pode ser afetado pelo desempenho destes fatores. Acesso à Internet de alta velocidade é altamente recomendado para o uso regular. A mais recente versão do software exigido é recomendada para acessar o Serviço iChose e pode ser exigida para determinadas transações ou recursos e para realizar o download de Produtos/Serviços iChose adquiridos posteriormente do Serviço iChose. O USUÁRIO concorda que atender a estes requisitos, as quais podem mudar de tempos em tempos, é sua responsabilidade. O Serviço iChose não é parte de qualquer outro produto ou oferta, e nenhuma compra ou obtenção de qualquer outro produto deve ser interpretada como representando ou garantindo seu acesso ao Serviço iChose.
+
+4. SUA CONTA
+Como um usuário registrado do Serviço iChose, o USUÁRIO pode criar uma conta ("Conta"). Não revele suas informações de Conta para ninguém. O USUÁRIO é exclusivamente responsável por manter a confidencialidade e segurança da sua Conta e por todas as atividades que ocorrerem na ou através de sua Conta e o USUÁRIO concorda em notificar imediatamente o iChose sobre qualquer violação da segurança da sua Conta. O iChose não será responsável por quaisquer perdas decorrentes do uso não-autorizado da sua Conta.
+Para acessar os Serviços iChose a partir do APLICATIVO, o USUÁRIO deve inserir sua ID e senha para autenticar sua Conta. Uma vez autenticada a Conta, o USUÁRIO não precisará autenticá-la novamente por alguns minutos. Durante este período, o USUÁRIO poderá consumir produtos ofertados na casa noturna ou estabelecimento em que se encontrar sem re-inserir a sua senha. O USUÁRIO poderá desativar a possibilidade de realizar compras de Serviços e Produtos iChose ajustando as configurações no seu Dispositivo IOS. Para mais informações, veja em http://ichose.com.br/faq.
+O USUÁRIO concorda:
+(i) em fornecer informações verdadeiras, precisas e completas quando se registrar e quando o USUÁRIO usar, os Serviços iChose (“Dados de Registro iChose LTDA”);
+(ii) atualizar seus Dados de Registro iChose LTDA para mantê-los precisos e completos; e
+(iii) está ciente que o iChose LTDA poderá armazenar e usar os Dados de Registro iChose LTDA que o USUÁRIO fornecer para uso na manutenção e faturamento de valores para a sua Conta.
+
+5. PAGAMENTOS, TRIBUTOS E POLÍTICA DE REEMBOLSO
+O serviço iChose aceita a seguinte forma de pagamento: cartões de crédito e débitos emitidos por bancos no Brasil e no exterior. Caso um cartão de crédito esteja sendo usado para uma transação, o iChose poderá obter pré-aprovação para um montante até o montante do pedido. O faturamento ocorre no momento ou logo após sua transação.
+O USUÁRIO concorda que pagará pelo serviço de conveniência e pelo consumo feito na respectiva casa noturna ou estabelecimentos comerciais, e que o iChose poderá cobrar seu cartão de crédito ou débitos para os serviços e produtos comprados e por quaisquer montantes adicionais (incluindo quaisquer tributos, conforme aplicável) que possam incidir ou relacionar-se à sua Conta. O USUÁRIO É RESPONSÁVEL PELO PAGAMENTO TEMPESTIVO DE TODOS OS VALORES E POR FORNECER AO iChose pelo menos UM CARTÃO DE CRÉDITO OU DÉBITO VÁLIDO PARA PAGAMENTO DE TODOS OS VALORES. Todos os valores serão faturados no cartão de crédito que o USUÁRIO indicar durante o processo de registro. Se o USUÁRIO quiser indicar um cartão de crédito ou débito diferente ou se houver uma mudança no status do seu cartão de crédito, o USUÁRIO deve alterar suas informações em seu cadastro, o que pode interromper temporariamente seu acesso ao Serviço, enquanto o iChose confirma as suas novas informações de pagamento.
+Seu preço total incluirá o preço do produto ou serviço além de quaisquer tributos incidentes sobre a venda ou prestação, os quais são baseados no seu endereço de cobrança e nas alíquotas aplicáveis à venda, em vigor no momento em que o USUÁRIO realizar o download do produto ou serviço. Nenhum cliente é elegível para isenção de tributos.
+Todas as vendas são finais.
+Os preços dos serviços e produtos oferecidos através do iChose podem ser alterados a qualquer momento e não oferecem proteção de preço ou reembolso em caso de uma redução de preço ou oferta promocional.
+O usuário poderá contestar as cobranças feitas pelo iChose em seu cartão de crédito e ou débito. Contudo, uma vez contestada determinada cobrança, independente do motivo, o uso do iChose será bloqueado. O aparelho celular, CPF e cartão de crédito envolvidos na contestação ficarão impossibilitados de se utilizar do iChose. O desbloqueio ocorrerá a exclusivo critério da iChose, mediante contato pelo USUÁRIO por meio do e-mail recadastramento@ichose.com.br.
+
+6. PRIVACIDADE
+O Serviço iChose está sujeito à Política de Privacidade do iChose, disponível em http://www.ichose.com.br/termo de uso e política de privacidade.
+Quando o USUÁRIO opta por utilizar o Serviço iChose, o iChose irá, de tempos em tempos, automaticamente coletar informação que pode ser utilizada para identificar seus dados de cadastro e consumo em casas noturnas da sua preferência. Isto inclui mídia enviada através do iChose e mídia obtida de outras fontes. Esta informação será armazenada de forma anônima e não será associada a seu nome ou Conta. Quando o USUÁRIO utiliza o Serviço iChose, o iChose irá utilizar esta informação e o conteúdo de seu histórico iChose, bem como outras informações, para fornecer recomendações personalizadas ao USUÁRIO.
+O iChose poderá usar esta informação e combiná-la com informações agregadas dos históricos iChose de outros usuários que também optaram por utilizar este recurso, seu histórico de consumo no iChose, dados agregados de históricos de consumos de outros usuários do iChose e outras informações obtidas de terceiros, para:
+(i) Criar listas personalizadas para o USUÁRIO a partir de seu histórico iChose.  (ii) Fornecer recomendações ao USUÁRIO com relação à mídia e outros produtos e serviços que o USUÁRIO poderá desejar adquirir.  (iii) Fornecer recomendações com relação a produtos e serviços para outros usuários.
+Por todo o tempo suas informações serão tratadas de acordo com o Termo de Uso e Política de Privacidade do iChose.
+Caso o USUÁRIO prefira que nós não coletemos e usemos informação de seu histórico iChose desta maneira, o USUÁRIO não deverá habilitar o iChose. O USUÁRIO pode revogar sua opção de habilitar a qualquer tempo ao desativar o recurso iChose em seu smartphone. Depois que optar por desabilitar o serviço, o iChose não enviará mais informações sobre seu histórico iChose para o iChose.
+Ao optar por utilizar o Serviço iChose, o USUÁRIO concorda com o uso de suas informações conforme descrito acima e na Política de Privacidade do iChose.
+
+7. USO DE CONTEÚDO iChose
+O USUÁRIO concorda que o Serviço iChose inclui tecnologia de segurança que limita seu uso aos Produtos IOS, Android e Windows Phone e que, sejam ou não os Produtos IOS, Android e Windows Phone limitados por tecnologia de segurança, o USUÁRIO deverá usar os Produtos IOS, Android e Windows Phone em cumprimento com as regras de utilização aplicáveis estabelecidas pela Apple, Google e MicroSoft e seus licenciantes (“Regras de Utilização”), e que qualquer outro uso dos Produtos IOS, Android e Windows Phone pode constituir violação de direitos autorais. Qualquer tecnologia de segurança é parte indissociável dos Produtos IOS, Android e Windows Phone. O iChose reserva-se o direito de modificar as Regras de Utilização a qualquer tempo. O USUÁRIO concorda em não violar, burlar, fazer engenharia reversa, decompilar, desmontar, ou de outra forma adulterar qualquer tecnologia de segurança relacionada a tais Regras de Utilização por qualquer motivo – ou tentar ou auxiliar outra pessoa a fazê-lo. As Regras de Utilização podem ser controladas e monitoradas pela iChose para fins de cumprimento, a iChose reserva-se o direito de executar as Regras de Utilização sem aviso o USUÁRIO. O USUÁRIO concorda em não acessar o Serviço iChose por quaisquer meios que não através de software fornecido pela iChose para acessar o Serviço iChose. O USUÁRIO não deverá acessar ou tentar acessar uma Conta que não esteja autorizado a acessar. O USUÁRIO concorda em não modificar o software de qualquer maneira ou forma, ou não usar versões modificadas do software, para quaisquer fins, incluindo obter acesso não autorizado ao Serviço iChose. Violações de segurança de sistema ou rede podem resultar em responsabilidade civil e criminal.
+O iChose reserva o direito de alterar opções de conteúdo (incluindo elegibilidade para determinados recursos) sem aviso.
+
+8. REGRAS DE UTILIZAÇÃO iChose
+(i) O USUÁRIO é autorizado a usar o Serviço iChose apenas para seu uso pessoal, não comercial.
+(ii) O USUÁRIO é autorizado a usar o Serviço iChose em até 3 (três) dispositivos autorizados a acessar o iChose a qualquer tempo.
+O USUÁRIO reconhece que, porque alguns aspectos do Serviço iChose, e administração das Regras de Uso implicam o envolvimento contínuo do iChose, caso o iChose modifique qualquer parte ou interrompa o Serviço iChose, o que o iChose pode fazer a seu critério, o USUÁRIO pode não ser capaz de usar o Serviço iChose na mesma medida como antes de tal mudança ou interrupção, e que o iChose não será responsável perante o USUÁRIO neste caso.
+
+9. PROPRIEDADE INTELECTUAL
+O USUÁRIO concorda que o Serviço iChose, contêm informações exclusivas e material que são propriedade do iChose e são protegidos pelas leis de propriedade intelectual e outras leis aplicáveis, incluindo, sem limitação, direitos autorais. O USUÁRIO concorda que não utilizará tais informações ou materiais exclusivos de nenhuma forma, exceto para uso dos Serviços em conformidade com este Contrato. Nenhuma parte dos Serviços poderá ser reproduzida de qualquer forma ou por qualquer meio, exceto conforme expressamente permitido por estes termos. O USUÁRIO concorda em não modificar, alugar, arrendar, emprestar, vender, distribuir ou criar obras derivadas baseadas no Serviço iChose de qualquer forma, e o USUÁRIO não deverá explorar o Serviço iChose de qualquer forma não-autorizada, incluindo, sem limitação, por invasão ou sobrecarga da capacidade da rede.
+O USUÁRIO fica ciente e concorda que, na utilização do APLICATIVO, é terminantemente proibido:
+(i) distribuir, modificar, vender, alugar ou de qualquer forma explorar economicamente o APLICATIVO, os dados e informações a ele relacionados, bem como utilizá-los para finalidade que não seja pessoal imediata ou, ainda, para a criação ou fornecimento de outros produtos ou serviços;
+(ii) criar, incluir ou divulgar qualquer conteúdo que seja ofensivo a quaisquer direitos de terceiros ou da iChose, inclusive direitos sobre marcas, direitos autorais, direitos de imagem, honra, nome e quaisquer outros;
+(iii) criar, incluir ou divulgar qualquer conteúdo que estimule ou incentive práticas contrárias à legislação em vigor, que implique riscos para terceiros ou que seja de qualquer outra forma ilícito;
+(iv) criar, incluir ou divulgar qualquer conteúdo que seja imoral, malicioso, falso, inexato, desatualizado, inoportuno ou estranho à finalidade do APLICATIVO;
+(v) reproduzir, distribuir, modificar, licenciar, duplicar, copiar, vender, comercializar, criar trabalho derivados, revender e/ou utilizar de forma pública, colocar e/ou vender quaisquer informações, software, lista de e-mails e outras listas, produtos e serviços obtidos através APLICATIVO o para uso comercial ou não comercial, a título oneroso ou gratuito, para qualquer efeito, incluindo, porém, não se limitando a meios de comunicação como rádios, TVs, portais de internet entre outros;
+(vi) fornecer à iChose, por ocasião do cadastro no APLICATIVO, informações falsas, inexatas, desatualizadas ou incompletas, bem como assumir intencionalmente a personalidade de outra pessoa, física ou jurídica;
+(vii) disseminar ou instalar vírus ou qualquer outro código, arquivo ou software com o propósito de interromper, destruir, acessar indevidamente, limitar ou interferir no funcionamento ou segurança do Aplica APLICATIVO tivo, bem como das informações, dados e equipamentos da iChose, de seus CLIENTES ou de terceiros, ou, ainda, para qualquer outra finalidade ilícita;
+(viii) praticar qualquer ato contrário à legislação em vigor.
+Sem prejuízo de qualquer disposição deste Contrato, o iChose e seus representantes se reservam o direito de alterar, suspender, remover ou desabilitar o acesso a quaisquer Serviço iChose, a qualquer momento, sem aviso. Em hipótese alguma, o iChose será responsabilizado por ter realizado tais alterações. O iChose poderá ainda impor limites sobre o uso de ou acesso a determinadas funcionalidades ou partes do Serviço iChose, em qualquer caso e sem aviso ou responsabilidade.
+Todos os direitos autorais relacionados ao Serviço iChose e software relacionados são de propriedade do iChose, que reserva todos os seus direitos previstos em lei e equidade. A UTILIZAÇÃO DO SOFTWARE OU QUALQUER PARTE DOS SERVIÇOS, EXCETO PARA USO DO SERVIÇO iChose COMO PERMITIDO NESTE CONTRATO, É ESTRITAMENTE PROIBIDA E VIOLA OS DIREITOS DE PROPRIEDADE INTELECTUAL DE TERCEIROS, PODENDO SUJEITÁ-LO A PENALIDADES CIVIS E CRIMINAIS, INCLUINDO POSSÍVEIS DANOS PATRIMONIAIS POR VIOLAÇÃO DE DIREITOS AUTORAIS.
+A Marca e o logotipo do iChose, usados em relação ao Serviço iChose são registradas do iChose. No Brasil. O USUÁRIO não recebe qualquer direito ou licença com relação a quaisquer das marcas acima mencionadas e qualquer uso de tais marcas.
+
+10. RESCISÃO
+Se o USUÁRIO deixar de cumprir ou o iChose suspeitar que o USUÁRIO deixou de cumprir quaisquer disposições deste Contrato, o iChose, a seu exclusivo critério, sem aviso ao USUÁRIO, poderá: (i) rescindir o presente Contrato e/ou sua Conta, e o USUÁRIO permanecerá responsável por todos os montantes devidos sob sua Conta até e incluindo a data da rescisão e/ou (ii) revogar a licença do software, e/ou (iii) impedir o acesso ao Serviço iChose (ou qualquer parte dele).
+O iChose reserva o direito de alterar, suspender ou interromper o Serviço iChose (ou qualquer parte ou conteúdo do mesmo) a qualquer tempo, com ou sem aviso ao USUÁRIO, e o iChose não será responsável perante o USUÁRIO ou qualquer terceiro caso exerça tais direitos.
+
+11. RENÚNCIA A GARANTIAS E LIMITAÇÃO DE RESPONSABILIDADE
+O iChose NÃO ASSEGURA, DECLARA OU GARANTE QUE SEU USO DO SERVIÇO iChose SERÁ ININTERRUPTO E LIVRE DE ERROS, E O USUÁRIO CONCORDA QUE O iChose, DE TEMPOS EM TEMPOS, PODE REMOVER O SERVIÇO iChose POR PERÍODOS DE TEMPO INDETERMINADOS, OU CANCELAR O SERVIÇO ITUNES A QUALQUER MOMENTO, SEM AVISO AO USUÁRIO.
+O iChose ASSUME A RESPONSABILIDADE AGREGADA E CUMULATIVA POR DANOS DIRETOS CAUSADOS PELOS SERVIÇOS/PRODUTOS FORNECIDOS, DE SUA PROPRIEDADE, QUE SEJAM DECORRENTES OU POR VIOLAÇÃO DO CONTRATO, ATO ILÍCITO (INCLUINDO NEGLIGÊNCIA), VIOLAÇÃO DE OBRIGAÇÃO LEGAL, OU DE QUALQUER OUTRA MANEIRA, NÃO EXCEDERÁ A QUANTIA QUE O USUÁRIO PAGOU PELOS SERVIÇOS. O USUÁRIO RECONHECE E CONCORDA QUE AS LIMITAÇÕES ESTABELECIDAS POR MEIO DESTAS DISPOSIÇÕES SÃO PARTE ESSENCIAL DESTE CONTRATO, E QUE NA AUSÊNCIA DESTAS DISPOSIÇÕES, OS TERMOS E CONDIÇÕES ESTABELECIDOS NESTE CONTRATO SERIAM SUBSTANCIALMENTE DIFERENTES.
+O iChose ENVIDARÁ ESFORÇOS RAZOÁVEIS PARA PROTEGER A INFORMAÇÃO ENVIADA POR O USUÁRIO EM RELAÇÃO AO SERVIÇO iChose, MAS O USUÁRIO CONCORDA QUE SEU ENVIO DE TAL INFORMAÇÃO É POR SEU PRÓPRIO RISCO, E O iChose NESTE ATO RENUNCIA A TODA E QUALQUER RESPONSABILIDADE PERANTE O USUÁRIO POR QUALQUER PERDA OU RESPONSABILIDADE RELACIONADA DE QUALQUER FORMA A TAL INFORMAÇÃO.
+O iChose NÃO DECLARA OU GARANTE QUE O SERVIÇO iChose SERÁ LIVRE DE PERDAS, DEFEITOS, ATAQUES, VÍRUS, INTERFERÊNCIAS, ATIVIDADES DE HACKERS OU OUTRA INTRUSÃO DE SEGURANÇA, E O iChose RENUNCIA A QUALQUER RESPONSABILIDADE COM RELAÇÃO A ISSO.
+
+12. RENÚNCIA E INDENIZAÇÃO
+O USUÁRIO fica ciente e concorda que o iChose não é responsável:
+(i) por eventual falta de qualidade, de exatidão, de completude, de adequação, de efetividade, de confiabilidade ou de utilidade das informações a eles relacionados ou de qualquer outro conteúdo do APLICATIVO;
+(ii) por qualquer serviço, anúncio, propaganda, imagem, texto ou outro conteúdo relacionado ao APLICATIVO que seja criado, mantido ou prestado por CLIENTES ou por terceiros, ainda que acessível ou visualizável no APLICATIVO;
+(iii) pelas condições reais de uso ou de funcionamento, consequências e eventuais danos decorrentes do uso ou de qualquer outro conteúdo do APLICATIVO;
+(iv) por qualquer sanção ou dano que o CLIENTE sofrer ou causar a terceiros em razão da inobservância e/ou descumprimento de qualquer lei em vigor, independentemente de qualquer informação ou conteúdo a esse respeito disponível no APLICATIVO;
+(v) por eventuais danos decorrentes da inobservância, pelo CLIENTE, do dever de manutenção da confidencialidade da sua senha, bem como da falta ou atraso no envio de notificação à iChose a respeito de eventual acesso indevido ou uso não autorizado da sua senha por terceiros;
+(vi) por qualquer dano sofrido pelo CLIENTE em decorrência da conduta de outros CLIENTES ou terceiros, ainda que no âmbito do APLICATIVO;
+(vii) por qualquer dano sofrido pelo CLIENTE em decorrência da remoção de qualquer conteúdo que criar, incluir ou divulgar do APLICATIVO, do cancelamento do seu cadastro neste, bem como da preservação ou fornecimento de informações a seu respeito, incluindo relativas à sua identificação e localização, pelo iChose, em cumprimento de ordens judiciais; e
+(viii) por eventual modificação, suspensão ou interrupção do APLICATIVO.
+
+13. DISPOSIÇÕES GERAIS
+Este Contrato constitui o acordo integral entre o USUÁRIO e o iChose, e rege seu uso do Serviço iChose, substituindo quaisquer contratos anteriores entre o USUÁRIO e o iChose. O USUÁRIO também poderá estar sujeito aos termos e condições adicionais que podem ser aplicáveis quando o USUÁRIO usa serviços afiliados, conteúdo de terceiros ou software de terceiros. Se qualquer parte deste Contrato for considerada inválida ou inexequível, essa parte deve ser interpretada de forma consistente com a lei aplicável para refletir, na medida do possível, a intenção original das partes, e as demais cláusulas permanecerão em pleno vigor e efeito. A falha do iChose em exigir quaisquer direitos ou disposições do presente Contrato não constituirá uma renúncia a essa ou a qualquer outra disposição. O iChose não será responsável por falhas em cumprir quaisquer obrigações em razão de causas fora do seu controle.
+O Serviço iChose é operado pelo iChose a partir de seu escritório no Brasil. O USUÁRIO concorda em cumprir todas as leis, estatutos, portarias e regulamentos locais, estaduais, federais e nacionais que se apliquem ao seu uso do Serviço iChose. Todas as transações realizadas por meio do Serviço iChose são regidas pelas leis do Brasil, independentemente de quaisquer disposições sobre conflitos de leis. O USUÁRIO concorda expressamente que o foro exclusivo competente para qualquer alegação ou litígio com o iChose ou de qualquer forma relacionado ao seu uso do Serviço iChose serão os tribunais da Comarca de Florianópolis, Estado de Santa Catarina, Brasil. Nenhum funcionário ou preposto do iChose tem poderes para alterar este Contrato.
+O iChose pode notificá-lo com relação ao Serviço iChose mediante envio de uma mensagem de e-mail para o endereço de e-mail de sua Conta. Os avisos terão efeito imediato.
+O iChose reserva o direito de tomar medidas que o iChose considere serem razoavelmente necessárias ou apropriadas para exigir e/ou verificar o cumprimento de qualquer parte deste Contrato. O USUÁRIO concorda que o iChose tem o direito, sem qualquer responsabilidade perante O USUÁRIO, de divulgar quaisquer Dados de Registro e/ou informações de Conta para autoridades judiciais, funcionários do governo e/ou terceiros, conforme o iChose acredite ser razoavelmente necessário ou apropriado para fazer valer e/ou verificar o cumprimento de qualquer parte do presente Contrato (incluindo, sem limitação, o direito do iChose de cooperar com qualquer processo legal relativo ao uso do Serviço iChose e/ou uma reclamação de terceiro no sentido de que seu uso do Serviço iChose é ilegal e/ou viola tais direitos de terceiros).
+O iChose RESERVA O DIREITO DE, A QUALQUER TEMPO, MODIFICAR O PRESENTE CONTRATO E IMPOR TERMOS OU CONDIÇÕES NOVOS OU ADICIONAIS SOBRE SEU USO DO SERVIÇO iChose. TAIS MODIFICAÇÕES E TERMOS E CONDIÇÕES ADICIONAIS TERÃO EFICÁCIA IMEDIATA E SERÃO INCORPORADOS A ESTE CONTRATO. A CONTINUAÇÃO DE SEU USO DO SERVIÇO iChose SERÁ CONSIDERADO COMO ACEITAÇÃO DESTES.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" translucent="NO" id="BU5-7K-fCM">
+                                <rect key="frame" x="0.0" y="18" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.22745099663734436" green="0.22745099663734436" blue="0.22745099663734436" alpha="1" colorSpace="deviceRGB"/>
+                                <items>
+                                    <navigationItem id="XUw-69-VSG">
+                                        <barButtonItem key="leftBarButtonItem" image="IconVoltar" id="T0m-km-IfQ">
+                                            <inset key="imageInsets" minX="-15" minY="19" maxX="60" maxY="20"/>
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <connections>
+                                                <action selector="btVoltar:" destination="ksW-4v-VFW" id="8Aa-g2-f9K"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iChoseLabel" id="GDg-cn-tcx">
+                                <rect key="frame" x="111" y="27" width="98" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.22745099663734436" green="0.22745099663734436" blue="0.22745099663734436" alpha="1" colorSpace="deviceRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hJd-BM-wJ3"/>
+                    <connections>
+                        <outlet property="btVoltar" destination="T0m-km-IfQ" id="3A3-FZ-OOw"/>
+                        <outlet property="ivFundoJanela" destination="9cI-lX-7D3" id="Jw9-Ui-AZj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ejH-xm-gaX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-953" y="-607"/>
+        </scene>
+        <!--I Chose Nav Controller-->
+        <scene sceneID="vBi-U4-bDm">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ql7-Qg-1DC" customClass="iChoseNavController" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="SR3-IO-Es0">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.22745099663734436" green="0.22745099663734436" blue="0.22745099663734436" alpha="1" colorSpace="deviceRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="8fI-KL-Sgf" kind="relationship" relationship="rootViewController" id="766-LV-HCB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IU8-We-HGQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-953" y="83"/>
+        </scene>
+        <!--Reveal View Controller-->
+        <scene sceneID="Ew0-0y-3Vi">
+            <objects>
+                <viewController id="qxo-hS-SXc" customClass="SWRevealViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pNu-4x-JRh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </view>
+                    <connections>
+                        <segue destination="xyL-an-TX3" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegue" id="EDW-ui-Jgz"/>
+                        <segue destination="ql7-Qg-1DC" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegue" id="hdo-my-bfd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Inw-uM-49t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="PF1-rg-bZS"/>
+            </objects>
+            <point key="canvasLocation" x="-1497" y="445"/>
+        </scene>
+        <!--I Chose MenuTVC-->
+        <scene sceneID="S2h-1X-5d8">
+            <objects>
+                <tableViewController id="SFs-aY-rLm" customClass="iChoseMenuTVC" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="default" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="2jh-tk-8ev">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="separatorColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell opaque="NO" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Foto" rowHeight="88" id="b63-To-hIt">
+                                <rect key="frame" x="0.0" y="22" width="320" height="88"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="b63-To-hIt" id="pwt-31-wS1">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="87"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FundoFoto" id="QPX-BP-Sfx">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MascaraFoto" id="Bpw-NF-Lsi">
+                                            <rect key="frame" x="20" y="10" width="70" height="70"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HTx-PK-sjo">
+                                            <rect key="frame" x="98" y="10" width="42" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </tableViewCell>
+                            <tableViewCell opaque="NO" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Tickets" id="Jsq-b1-TCa">
+                                <rect key="frame" x="0.0" y="110" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Jsq-b1-TCa" id="9bG-dI-QCX">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ticket" id="dJy-1y-yAB">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </imageView>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </tableViewCell>
+                            <tableViewCell opaque="NO" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Dados Pessoais" id="jE3-x3-Iug">
+                                <rect key="frame" x="0.0" y="154" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jE3-x3-Iug" id="Qhq-Qi-FGk">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DadosPessoais" id="eu8-Uf-qhX">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </imageView>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </tableViewCell>
+                            <tableViewCell opaque="NO" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cartoes" id="WYI-hj-hdT">
+                                <rect key="frame" x="0.0" y="198" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WYI-hj-hdT" id="3aJ-cV-EtW">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SetaMenu" id="yvW-mO-LND">
+                                            <rect key="frame" x="20" y="16" width="11" height="11"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cartões de crédito/debito" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ggy-2x-YVW">
+                                            <rect key="frame" x="50" y="11" width="250" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="20"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </tableViewCell>
+                            <tableViewCell opaque="NO" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Informacoes" id="M76-RY-7T0">
+                                <rect key="frame" x="0.0" y="242" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="M76-RY-7T0" id="utn-77-GR1">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SetaMenu" id="ngi-yd-2UX">
+                                            <rect key="frame" x="20" y="16" width="11" height="11"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Informações de cadastro" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EMN-fc-Oci">
+                                            <rect key="frame" x="50" y="11" width="250" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="20"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </tableViewCell>
+                            <tableViewCell opaque="NO" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Historico" id="ChK-i7-p2x">
+                                <rect key="frame" x="0.0" y="286" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ChK-i7-p2x" id="mXa-0P-Anx">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Historico" id="grQ-Zj-XY6">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </imageView>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </tableViewCell>
+                            <tableViewCell opaque="NO" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Compras" id="eYY-Nv-9qm">
+                                <rect key="frame" x="0.0" y="330" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eYY-Nv-9qm" id="ufO-nJ-ayM">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SetaMenu" id="mg3-5h-FJ6">
+                                            <rect key="frame" x="20" y="16" width="11" height="11"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Compras" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mGX-Hn-kNs">
+                                            <rect key="frame" x="50" y="11" width="250" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="20"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </tableViewCell>
+                            <tableViewCell opaque="NO" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Pagamentos" id="uEa-1U-K19">
+                                <rect key="frame" x="0.0" y="374" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uEa-1U-K19" id="AHx-yZ-ew1">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SetaMenu" id="xeG-pa-OTR">
+                                            <rect key="frame" x="20" y="16" width="11" height="11"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pagamentos" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Qv4-IB-JVp">
+                                            <rect key="frame" x="50" y="11" width="250" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="20"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </tableViewCell>
+                            <tableViewCell opaque="NO" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Consumo" id="lR3-vE-Mj5">
+                                <rect key="frame" x="0.0" y="418" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lR3-vE-Mj5" id="uhf-xl-wiI">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SetaMenu" id="cXk-W5-qpg">
+                                            <rect key="frame" x="20" y="16" width="11" height="11"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Histórico de consumo" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fWv-9s-v3Z">
+                                            <rect key="frame" x="50" y="11" width="250" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="20"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </tableViewCell>
+                            <tableViewCell opaque="NO" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Ajustes" id="dIj-T4-p3d">
+                                <rect key="frame" x="0.0" y="462" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dIj-T4-p3d" id="V3y-E0-bk3">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ajustes" id="0xE-dU-uyd">
+                                            <rect key="frame" x="0.0" y="0.0" width="327" height="43"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </tableViewCell>
+                            <tableViewCell opaque="NO" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Sair" id="GG3-ee-WeK">
+                                <rect key="frame" x="0.0" y="506" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GG3-ee-WeK" id="aaL-C2-uvV">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SetaMenu" id="cC5-64-8OK">
+                                            <rect key="frame" x="20" y="16" width="11" height="11"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sair" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7XC-lj-opQ">
+                                            <rect key="frame" x="50" y="11" width="250" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="20"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="SFs-aY-rLm" id="48T-sm-IUa"/>
+                            <outlet property="delegate" destination="SFs-aY-rLm" id="O4m-1l-Vdu"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="BEK-5S-d31"/>
+                    <connections>
+                        <outlet property="tableView" destination="2jh-tk-8ev" id="idw-qN-DIT"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uVk-Gx-RC5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-427" y="791"/>
+        </scene>
+        <!--I Chose MenuNC-->
+        <scene sceneID="Zhv-gZ-hgf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xyL-an-TX3" customClass="iChoseMenuNC" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="wfd-dg-0Ax">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.22745099660000001" green="0.22745099660000001" blue="0.22745099660000001" alpha="1" colorSpace="deviceRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="SFs-aY-rLm" kind="relationship" relationship="rootViewController" id="O1u-Ta-ALg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pSf-Dd-TNs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-953" y="791"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Ajustes" width="514" height="59"/>
+        <image name="DadosPessoais" width="514" height="59"/>
+        <image name="FundoFoto" width="514" height="197"/>
+        <image name="FundoGradiente" width="320" height="480"/>
+        <image name="Historico" width="516" height="59"/>
+        <image name="IconAbreMenu" width="44" height="44"/>
+        <image name="IconVoltar" width="91" height="90"/>
+        <image name="MascaraFoto" width="122" height="122"/>
+        <image name="SetaMenu" width="15" height="21"/>
+        <image name="Ticket" width="514" height="59"/>
+        <image name="avatar_mascara.png" width="189" height="189"/>
+        <image name="avatar_null.png" width="182" height="182"/>
+        <image name="botao_cadastro.png" width="524" height="80"/>
+        <image name="botao_entrar.png" width="524" height="80"/>
+        <image name="fundo_janela.png" width="10" height="10"/>
+        <image name="iChoseLabel" width="208" height="60"/>
+        <image name="icone_info.png" width="51" height="49"/>
+        <image name="logo_acesso.png" width="432" height="129"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="2Wo-3f-c5y"/>
+    </inferredMetricsTieBreakers>
+</document>

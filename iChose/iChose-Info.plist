@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string>MKDirectionsRequest</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>com.apple.maps.directionsrequest</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIdentifier</key>
+	<string>br.com.ichose.${PRODUCT_NAME:rfc1034identifier}</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>MKDirectionsApplicationSupportedModes</key>
+	<array>
+		<string>MKDirectionsModeCar</string>
+		<string>MKDirectionsModePedestrian</string>
+		<string>MKDirectionsModeStreetCar</string>
+		<string>MKDirectionsModeSubway</string>
+		<string>MKDirectionsModeTaxi</string>
+		<string>MKDirectionsModeTrain</string>
+	</array>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Agendar o evento no seu calendario.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Tirar sua foto.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Adicionar aos contatos o endereço e telefones do estabelecimento do evento.</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Ajudar a localizar o evento.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Escolher sua foto.</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>Adicionar lembrete de compromisso do evento.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>location</string>
+		<string>newsstand-content</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchImageFile</key>
+	<string>LaunchImage</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIStatusBarHidden</key>
+	<true/>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<true/>
+	<key>UIStatusBarTintParameters</key>
+	<dict>
+		<key>UINavigationBar</key>
+		<dict>
+			<key>BackgroundImage</key>
+			<string></string>
+			<key>Style</key>
+			<string>UIBarStyleDefault</string>
+			<key>Translucent</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+</dict>
+</plist>

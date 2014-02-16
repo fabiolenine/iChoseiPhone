@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13B42" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CartaoCredito" representedClassName="CartaoCredito" syncable="YES">
+        <attribute name="cdTipoOperacao" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="deCodSeg" optional="YES" attributeType="String" minValueString="3" maxValueString="3" syncable="YES"/>
+        <attribute name="deNomeCartao" optional="YES" attributeType="String" minValueString="16" maxValueString="16" syncable="YES"/>
+        <attribute name="deNumeroCartao" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deTitulo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ClienteMovel" representedClassName="ClienteMovel" syncable="YES">
+        <attribute name="bdFoto" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="deCelular" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deCEP" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deCPF" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deNome" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deSobreNome" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dtNascimento" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="dtTimeStamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="flGenero" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <relationship name="rsusuario" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Usuario" inverseName="rscliente" inverseEntity="Usuario" syncable="YES"/>
+    </entity>
+    <entity name="HistCompras" representedClassName="HistCompras" syncable="YES">
+        <attribute name="cdHistEvento" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="cdHistProduto" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="dtCompra" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="nuQuantidade" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="vlUnitario" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="HistEventos" representedClassName="HistEventos" syncable="YES">
+        <attribute name="cdHistEvento" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="deEvento" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dtEvento" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <entity name="HistProdutos" representedClassName="HistProdutos" syncable="YES">
+        <attribute name="cdHistProduto" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="cdTipoProduto" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="deCodigo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deProduto" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="HistTickets" representedClassName="Tickets" syncable="YES">
+        <attribute name="cdHistTicket" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="cdPagamento" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="cdTipoTicket" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="deCodigoTicket" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deTicket" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="flEntradaSaida" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+    </entity>
+    <entity name="Pagamento" representedClassName="Pagamento" syncable="YES">
+        <attribute name="cdPagamento" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="deKeyAutorizacao" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dtPagamento" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="vlPago" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="ProcessLog" representedClassName="ProcessLog" syncable="YES">
+        <attribute name="deProcesso" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dtTimeStamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="flEnviado" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="idObject" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="rsusuarioproc" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Usuario" inverseName="rsprocesso" inverseEntity="Usuario" syncable="YES"/>
+    </entity>
+    <entity name="Usuario" representedClassName="Usuario" syncable="YES">
+        <attribute name="deSenhaUsuario" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deUsuario" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dtTimeStamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="idObject" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="rscliente" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="ClienteMovel" inverseName="rsusuario" inverseEntity="ClienteMovel" syncable="YES"/>
+        <relationship name="rsprocesso" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="ProcessLog" inverseName="rsusuarioproc" inverseEntity="ProcessLog" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CartaoCredito" positionX="333" positionY="-207" width="128" height="118"/>
+        <element name="ClienteMovel" positionX="-191" positionY="-136" width="128" height="208"/>
+        <element name="HistCompras" positionX="187" positionY="-207" width="128" height="118"/>
+        <element name="HistEventos" positionX="187" positionY="45" width="128" height="90"/>
+        <element name="HistProdutos" positionX="187" positionY="-72" width="128" height="105"/>
+        <element name="HistTickets" positionX="333" positionY="45" width="128" height="135"/>
+        <element name="Pagamento" positionX="331" positionY="-72" width="128" height="105"/>
+        <element name="Usuario" positionX="-387" positionY="-48" width="128" height="133"/>
+        <element name="ProcessLog" positionX="-578" positionY="-63" width="128" height="148"/>
+    </elements>
+</model>

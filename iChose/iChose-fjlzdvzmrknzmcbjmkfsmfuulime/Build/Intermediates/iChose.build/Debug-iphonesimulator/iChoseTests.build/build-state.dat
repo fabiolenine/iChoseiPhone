@@ -1,0 +1,255 @@
+TiChoseTests
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/Info.plist /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChoseTests/iChoseTests-Info.plist
+cProcessPCH /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Intermediates/PrecompiledHeaders/iChose-Prefix-gwgtvtvlivrbhgdortuwuelnfkav/iChose-Prefix.pch.pch iChose/iChose-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Intermediates/iChose.build/Debug-iphonesimulator/iChoseTests.build/Objects-normal/i386/iChoseTests.o /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChoseTests/iChoseTests.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/iChoseTests normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Library/Frameworks/XCTest.framework/XCTest
+c00000000523A3E3900000000000256F0
+t1379548729
+s153328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c000000005282A48B0000000000000176
+t1384293515
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c00000000523A3E7400000000000003B5
+t1379548788
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000052679A0800000000000001A0
+t1382521352
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000052679A0D000000000088C680
+t1382521357
+s8963712
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000052679A150000000001DB9910
+t1382521365
+s31168784
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/include/module.map
+c00000000523A3EEC0000000000000AC9
+t1379548908
+s2761
+
+N/Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-Prefix.pch
+c000000005240F664000000000000017A
+t1379989092
+s378
+
+N/Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Intermediates/PrecompiledHeaders/iChose-Prefix-gwgtvtvlivrbhgdortuwuelnfkav/iChose-Prefix.pch.pch
+t1390271269
+s110168
+
+N/Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Intermediates/iChose.build/Debug-iphonesimulator/iChoseTests.build/Objects-normal/i386/iChoseTests.LinkFileList
+c0000000052DDDB2300000000000000D1
+t1390271267
+s209
+
+N/Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Intermediates/iChose.build/Debug-iphonesimulator/iChoseTests.build/Objects-normal/i386/iChoseTests.o
+t1390271269
+s8128
+
+N/Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/Info.plist
+t2
+s0
+
+N/Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/iChoseTests
+t2
+s0
+
+N/Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChoseTests/iChoseTests-Info.plist
+c00000000521AA0F600000000000002B5
+t1377476854
+s693
+
+N/Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChoseTests/iChoseTests.m
+c00000000521AA0F60000000000000204
+t1377476854
+s516
+
+CBuild AST from /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChoseTests/iChoseTests.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies78f28da3128eb841^68099ea3128eb841^---0#1#1#--18"Check dependencies36"F1990A0A-AA19-40F7-89CE-149BB69DDADA-
+
+CCompileC iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Intermediates/iChose.build/Debug-iphonesimulator/iChoseTests.build/Objects-normal/i386/iChoseTests.o /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChoseTests/iChoseTests.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s411964069.589714
+e411964069.763240
+r1
+xCompileC
+xiChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Intermediates/iChose.build/Debug-iphonesimulator/iChoseTests.build/Objects-normal/i386/iChoseTests.o
+x/Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChoseTests/iChoseTests.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChoseTests/iChoseTests.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChoseTests/iChoseTests.m252"CompileC iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Intermediates/iChose.build/Debug-iphonesimulator/iChoseTests.build/Objects-normal/i386/iChoseTests.o iChoseTests/iChoseTests.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler5d1a97a5128eb841^5b7bc3a5128eb841^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChoseTests/iChoseTests.m0000000000000000^4840"CompileC iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Intermediates/iChose.build/Debug-iphonesimulator/iChoseTests.build/Objects-normal/i386/iChoseTests.o iChoseTests/iChoseTests.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Intermediates/iChose.build/Debug-iphonesimulator/iChoseTests.build/iChoseTests-generated-files.hmap -I/Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Intermediates/iChose.build/Debug-iphonesimulator/iChoseTests.build/iChoseTests-own-target-headers.hmap -I/Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Intermediates/iChose.build/Debug-iphonesimulator/iChoseTests.build/iChoseTests-all-target-headers.hmap -iquote /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Intermediates/iChose.build/Debug-iphonesimulator/iChoseTests.build/iChoseTests-project-headers.hmap -I/Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Intermediates/iChose.build/Debug-iphonesimulator/iChoseTests.build/DerivedSources/i386 -I/Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Intermediates/iChose.build/Debug-iphonesimulator/iChoseTests.build/DerivedSources -F/Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode5-DP2.app/Contents/Developer/Library/Frameworks -include /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Intermediates/PrecompiledHeaders/iChose-Prefix-gwgtvtvlivrbhgdortuwuelnfkav/iChose-Prefix.pch -MMD -MT dependencies -MF /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Intermediates/iChose.build/Debug-iphonesimulator/iChoseTests.build/Objects-normal/i386/iChoseTests.d --serialize-diagnostics /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Intermediates/iChose.build/Debug-iphonesimulator/iChoseTests.build/Objects-normal/i386/iChoseTests.dia -c /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChoseTests/iChoseTests.m -o /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Intermediates/iChose.build/Debug-iphonesimulator/iChoseTests.build/Objects-normal/i386/iChoseTests.o36"4B2FC51E-0D2C-411E-A08B-78095B60BA96-
+bDDBA0A69-AAF5-466E-B5E6-54C1F9345BAC
+
+CCopyStringsFile /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/en.lproj/InfoPlist.strings iChoseTests/en.lproj/InfoPlist.strings
+r0
+
+CCpResource iChose/Default-Portrait-568h@2x.png iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/Default-Portrait-568h@2x.png
+r0
+
+CCpResource iChose/Default-Portrait.png iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/Default-Portrait.png
+r0
+
+CCpResource iChose/Default-Portrait@2x.png iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/Default-Portrait@2x.png
+r0
+
+CCpResource iChose/HelveticaNeue.ttf iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/HelveticaNeue.ttf
+r0
+
+CCpResource iChose/HelveticaNeueBold.ttf iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/HelveticaNeueBold.ttf
+r0
+
+CCpResource iChose/HelveticaNeueBoldItalic.ttf iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/HelveticaNeueBoldItalic.ttf
+r0
+
+CCpResource iChose/HelveticaNeueCondensedBlack.ttf iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/HelveticaNeueCondensedBlack.ttf
+r0
+
+CCpResource iChose/HelveticaNeueCondensedBold.ttf iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/HelveticaNeueCondensedBold.ttf
+r0
+
+CCpResource iChose/HelveticaNeueItalic.ttf iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/HelveticaNeueItalic.ttf
+r0
+
+CCpResource iChose/HelveticaNeueLight.ttf iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/HelveticaNeueLight.ttf
+r0
+
+CCpResource iChose/HelveticaNeueLightItalic.ttf iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/HelveticaNeueLightItalic.ttf
+r0
+
+CCpResource iChose/HelveticaNeueMedium.ttf iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/HelveticaNeueMedium.ttf
+r0
+
+CCpResource iChose/HelveticaNeueUltraLight.ttf iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/HelveticaNeueUltraLight.ttf
+r0
+
+CCpResource iChose/HelveticaNeueUltraLightItalic.ttf iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/HelveticaNeueUltraLightItalic.ttf
+r0
+
+CCpResource iChose/Icon-72.png iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/Icon-72.png
+r0
+
+CCpResource iChose/Icon-72@2x.png iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/Icon-72@2x.png
+r0
+
+CCpResource iChose/Icon-Small-50.png iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/Icon-Small-50.png
+r0
+
+CCpResource iChose/Icon-Small-50@2x.png iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/Icon-Small-50@2x.png
+r0
+
+CCpResource iChose/Icon-Small.png iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/Icon-Small.png
+r0
+
+CCpResource iChose/Icon-Small@2x.png iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/Icon-Small@2x.png
+r0
+
+CCpResource iChose/Icon.png iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/Icon.png
+r0
+
+CCpResource iChose/Icon@2x.png iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/Icon@2x.png
+r0
+
+CCpResource iChose/MyLaunchImage-Portrait-568h@2x.png iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/MyLaunchImage-Portrait-568h@2x.png
+r0
+
+CCpResource iChose/MyLaunchImage-Portrait.png iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/MyLaunchImage-Portrait.png
+r0
+
+CCpResource iChose/MyLaunchImage-Portrait@2x.png iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/MyLaunchImage-Portrait@2x.png
+r0
+
+CCpResource iChose/avatar_mascara.png iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/avatar_mascara.png
+r0
+
+CCpResource iChose/avatar_null.png iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/avatar_null.png
+r0
+
+CCpResource iChose/background_common.png iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/background_common.png
+r0
+
+CCpResource iChose/botao_cadastro.png iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/botao_cadastro.png
+r0
+
+CCpResource iChose/botao_entrar.png iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/botao_entrar.png
+r0
+
+CCpResource iChose/fundo_janela.png iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/fundo_janela.png
+r0
+
+CCpResource iChose/fundo_janela_completo.png iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/fundo_janela_completo.png
+r0
+
+CCpResource iChose/icone_info.png iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/icone_info.png
+r0
+
+CCpResource iChose/logo_acesso.png iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/logo_acesso.png
+r0
+
+CGenerateDSYMFile /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest.dSYM /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/iChoseTests
+r0
+
+CLd /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/iChoseTests normal i386
+s411964069.764585
+e411964069.799167
+r0
+xLd
+x/Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/iChoseTests
+xnormal
+xi386
+old: warning: directory not found for option '-F/Applications/Xcode5-DP2.app/Contents/Developer/Library/Frameworks'
+old: file not found: /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChose.app/iChose
+oclang: error: linker command failed with exit code 1 (use -v to see invocation)
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection174"Link /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/iChoseTests125"Ld iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/iChoseTests normal i386e4d7c3a5128eb841^9697cca5128eb841^-372"ld: warning: directory not found for option '-F/Applications/Xcode5-DP2.app/Contents/Developer/Library/Frameworks'ld: file not found: /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChose.app/iChoseclang: error: linker command failed with exit code 1 (use -v to see invocation)3(21%IDEActivityLogMessage2@101"Directory not found for option '-F/Applications/Xcode5-DP2.app/Contents/Developer/Library/Frameworks'-411964069#0#115#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@172"File not found: /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChose.app/iChose-411964069#115#177#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@65"Linker command failed with exit code 1 (use -v to see invocation)-411964069#292#80#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--0#0#1#--2275"Ld iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/iChoseTests normal i386    cd /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator -F/Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode5-DP2.app/Contents/Developer/Library/Frameworks -filelist /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Intermediates/iChose.build/Debug-iphonesimulator/iChoseTests.build/Objects-normal/i386/iChoseTests.LinkFileList -bundle_loader /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChose.app/iChose -Xlinker -objc_abi_version -Xlinker 2 -framework XCTest -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -framework XCTest -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Intermediates/iChose.build/Debug-iphonesimulator/iChoseTests.build/Objects-normal/i386/iChoseTests_dependency_info.dat -o /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/iChoseTests36"1D72F07C-0BE8-47B9-81FD-1D1EBE5BE261-
+bDDBA0A69-AAF5-466E-B5E6-54C1F9345BAC
+
+CProcessInfoPlistFile /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/Info.plist /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChoseTests/iChoseTests-Info.plist
+s411964067.622022
+e411964067.624705
+r1
+xProcessInfoPlistFile
+x/Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/Info.plist
+x/Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChoseTests/iChoseTests-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Process /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChoseTests/iChoseTests-Info.plist165"ProcessInfoPlistFile iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/Info.plist iChoseTests/iChoseTests-Info.plistd9949fa3128eb841^7c48a0a3128eb841^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChoseTests/iChoseTests-Info.plist0000000000000000^784"ProcessInfoPlistFile iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/Info.plist iChoseTests/iChoseTests-Info.plist    cd /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChoseTests/iChoseTests-Info.plist -expandbuildsettings -format binary -platform iphonesimulator -o /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest/Info.plist36"BFDE023F-9B43-45B1-A349-B195F80BB2C1-
+bDDBA0A69-AAF5-466E-B5E6-54C1F9345BAC
+
+CProcessPCH /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Intermediates/PrecompiledHeaders/iChose-Prefix-gwgtvtvlivrbhgdortuwuelnfkav/iChose-Prefix.pch.pch iChose/iChose-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s411964067.627392
+e411964069.588788
+r1
+xProcessPCH
+x/Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Intermediates/PrecompiledHeaders/iChose-Prefix-gwgtvtvlivrbhgdortuwuelnfkav/iChose-Prefix.pch.pch
+xiChose/iChose-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile iChose/iChose-Prefix.pch250"ProcessPCH iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Intermediates/PrecompiledHeaders/iChose-Prefix-gwgtvtvlivrbhgdortuwuelnfkav/iChose-Prefix.pch.pch iChose/iChose-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler62bea0a3128eb841^1c2898a5128eb841^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-Prefix.pch0000000000000000^4620"ProcessPCH iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Intermediates/PrecompiledHeaders/iChose-Prefix-gwgtvtvlivrbhgdortuwuelnfkav/iChose-Prefix.pch.pch iChose/iChose-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Intermediates/iChose.build/Debug-iphonesimulator/iChoseTests.build/iChoseTests-generated-files.hmap -I/Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Intermediates/iChose.build/Debug-iphonesimulator/iChoseTests.build/iChoseTests-own-target-headers.hmap -I/Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Intermediates/iChose.build/Debug-iphonesimulator/iChoseTests.build/iChoseTests-all-target-headers.hmap -iquote /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Intermediates/iChose.build/Debug-iphonesimulator/iChoseTests.build/iChoseTests-project-headers.hmap -I/Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Intermediates/iChose.build/Debug-iphonesimulator/iChoseTests.build/DerivedSources/i386 -I/Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Intermediates/iChose.build/Debug-iphonesimulator/iChoseTests.build/DerivedSources -F/Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode5-DP2.app/Contents/Developer/Library/Frameworks --serialize-diagnostics /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Intermediates/PrecompiledHeaders/iChose-Prefix-gwgtvtvlivrbhgdortuwuelnfkav/iChose-Prefix.pch.dia -MMD -MT dependencies -MF /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Intermediates/PrecompiledHeaders/iChose-Prefix-gwgtvtvlivrbhgdortuwuelnfkav/iChose-Prefix.pch.d -c /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-Prefix.pch -o /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Intermediates/PrecompiledHeaders/iChose-Prefix-gwgtvtvlivrbhgdortuwuelnfkav/iChose-Prefix.pch.pch36"709797E6-DB2E-4D31-9A04-C57D9B1807A2-
+bDDBA0A69-AAF5-466E-B5E6-54C1F9345BAC
+
+CProcessPCH /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Index/PrecompiledHeaders/iChose-Prefix-ftgsojppmujyapenmitmpysubdte_ast/iChose-Prefix.pch.pch iChose/iChose-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/fabiolenine/Documents/Projetos/iChoseApp/iOS/iChose/iChose/iChose-fjlzdvzmrknzmcbjmkfsmfuulime/Build/Products/Debug-iphonesimulator/iChoseTests.xctest
+r0
+
