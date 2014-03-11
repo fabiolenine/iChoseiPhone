@@ -12,7 +12,8 @@
 #import "ClienteMovel.h"
 #import "validadorES.h"
 
-#define cadastrarURL [NSURL URLWithString:@"http://ec2-54-245-29-152.us-west-2.compute.amazonaws.com:8080/api/v01/usuariomobile/cadastrar"]
+#define cadastrarURL    [NSURL URLWithString:@"http://ec2-54-245-29-152.us-west-2.compute.amazonaws.com:8080/api/v01/usuariomobile/cadastrar"]
+#define atualizafotoURL [NSURL URLWithString:@"http://ec2-54-245-29-152.us-west-2.compute.amazonaws.com:8080/api/v01/usuariomobile/atualizafoto"]
 
 CLLocationDegrees   latitude;
 CLLocationDegrees   longitude;
@@ -288,15 +289,15 @@ int     _foto = 0;
         
         NSDictionary *cadastrarD = @{   @"nomecompleto":   @{   @"nomeprincipal":  tfNome.text,
                                                                 @"sobrenome":      tfSobreNome.text
-                                },
-             @"genero":         [NSNumber numberWithInt:([self.pscGenero selectedSegmentIndex])],
-             @"cpf":            tfCPF.text,
-             @"datanascimento": tfDataNascimento.text,
-             @"celular":        tfCelular.text,
-             @"cep":            tfCEP.text,
-             @"email":          tfEmail.text,
-             @"senha":          [self computeSHA256DigestForString:tfSenha.text],
-             @"foto":           [self encodeToBase64String:imageView.image]
+                                }
+            ,@"genero":         [NSNumber numberWithInt:([self.pscGenero selectedSegmentIndex])]
+            ,@"cpf":            tfCPF.text
+            ,@"datanascimento": tfDataNascimento.text
+            ,@"celular":        tfCelular.text
+            ,@"cep":            tfCEP.text
+            ,@"email":          tfEmail.text
+            ,@"senha":          [self computeSHA256DigestForString:tfSenha.text]
+            //,@"foto":           [self encodeToBase64String:imageView.image]
                                 };
         
         NSError* errorJSON;
@@ -313,9 +314,9 @@ int     _foto = 0;
         }
         
         // Comentar essa faixa e todos os NSLog quando entrar em produção;
-        NSString *json = [[NSString alloc] initWithData:jsonData
-                                               encoding:NSUTF8StringEncoding];
-        NSLog(@"Json construido: %@", json);
+        //NSString *json = [[NSString alloc] initWithData:jsonData
+        //                                       encoding:NSUTF8StringEncoding];
+        //NSLog(@"Json construido: %@", json);
 
     }
 }
@@ -390,15 +391,84 @@ int     _foto = 0;
         
         [alert show];
         
-        NSLog ( @ "Ops, não foi possível salvar: %@" , [ error localizedDescription ] ) ;
+        //NSLog ( @ "Ops, não foi possível salvar: %@" , [ error localizedDescription ] ) ;
     }
     else
     {
+        
+        //
+        dispatch_queue_t dqPutFoto = dispatch_queue_create("com.webservice.putfoto", NULL);
+        
+        dispatch_async(dqPutFoto, ^{
+        
+            NSDictionary *fotoD = @{ @"id":     objectIDS
+                                     ,@"foto":   [self encodeToBase64String:imageView.image]
+                                     };
+        
+            NSError* errorJSON;
+            NSData *jsonData = [NSJSONSerialization dataWithJSONObject:fotoD
+                                                               options:kNilOptions
+                                                                 error:&errorJSON];
+        
+            if (errorJSON) {
+                NSLog(@"Erro no Parser do JSON: %@", errorJSON);
+            }
+            else
+            {
+                [self putFoto:jsonData];
+            }
+        });
+    
         [self performSegueWithIdentifier:@"sValidadorCadastro" sender:self];
     }
     
+    [self.spinner stopAnimating];
+    //NSLog(@"Hash da senha %@",[self computeSHA256DigestForString:tfSenha.text]);
+}
+
+- (void)putFoto:(NSData*)jsonData
+{
     
-    NSLog(@"Hash da senha %@",[self computeSHA256DigestForString:tfSenha.text]);
+    NSURLSessionConfiguration *configObject = [NSURLSessionConfiguration defaultSessionConfiguration];
+    NSURLSession *defaultSession = [NSURLSession sessionWithConfiguration: configObject delegate: nil delegateQueue: [NSOperationQueue mainQueue]];
+    
+    NSURL * url = atualizafotoURL;
+    NSMutableURLRequest * urlRequest = [NSMutableURLRequest requestWithURL:url];
+    [urlRequest setHTTPMethod:@"POST"];
+    
+    [urlRequest setValue:@"application/json" forHTTPHeaderField:@"Accept"];
+    [urlRequest setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+    [urlRequest setValue:[NSString stringWithFormat:@"%d", [jsonData length]] forHTTPHeaderField:@"Content-Length"];
+    
+    [urlRequest setHTTPBody:jsonData];
+    
+    configObject.allowsCellularAccess = YES;
+    [configObject setHTTPAdditionalHeaders:@{@"Accept":             @"application/json",
+                                             @"Accept-Language":    @"br"}];
+    
+    configObject.timeoutIntervalForRequest      = 30.0;
+    configObject.timeoutIntervalForResource     = 60.0;
+    configObject.HTTPMaximumConnectionsPerHost  = 1;
+    
+    NSURLSessionDataTask * dataTask =[defaultSession dataTaskWithRequest:urlRequest
+                                                       completionHandler:^(NSData *data, NSURLResponse *response, NSError *error)
+                                      {
+                                          NSLog(@"Response:%@ %@\n", response, error);
+                                          if(error == nil)
+                                          {
+                                              
+                                             // desenvolver o envio de informação para o controle de falha de envio da foto por backgroud, no caso sucesso.
+                                              
+                                          }
+                                          else
+                                          {
+                                              
+                                             // desenvolver o envio de informação para o controle de falha de envio da foto por backgroud, no caso falha.
+                                          
+                                          }
+                                      }];
+    [dataTask resume];
+    
 }
 
 - (void)postCadastrar: (NSData*)jsonData
@@ -434,7 +504,7 @@ int     _foto = 0;
                                                            if(error == nil)
                                                            {
                                                                NSString * text = [[NSString alloc] initWithData: data encoding: NSUTF8StringEncoding];
-                                                               NSLog(@"Data = %@",text);
+                                                               //NSLog(@"Data = %@",text);
                                                                objectIDS = text;
                                                            
                                                                if (_foto == 0)
@@ -442,7 +512,13 @@ int     _foto = 0;
                                                                    imageView.image = [UIImage imageNamed:@"avatar_null_menos90.png"];
                                                                }
                                                                
-                                                               [self salvarCadastroDB];
+                                                               //dispatch_queue_t dqBaseDados = dispatch_queue_create("com.basededados.cadastrar", NULL);
+                                                               
+                                                               //dispatch_async(dqBaseDados, ^{
+                                                               
+                                                                [self salvarCadastroDB];
+                                                               
+                                                               //});
                                                                
                                                                if (_foto == 0)
                                                                {
@@ -463,8 +539,6 @@ int     _foto = 0;
                                                            }
                                                     }];
     [dataTask resume];
-    
-    [self.spinner stopAnimating];
     
 }
 
